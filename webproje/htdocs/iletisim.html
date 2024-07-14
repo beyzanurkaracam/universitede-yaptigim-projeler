@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Beyzanur Karaçam</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg ust-navbar ">
+        <div class="container-fluid navbarr">
+            <div class="logo">
+                <img src="resimler/b-harfi_1194522.png" alt="logo">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" aria-current="page" href="hakkimda.html">Hakkımda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="ozgecmis.html">Özgeçmiş</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="sehrim.html" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Şehrim
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sehrim.html">Şehrim</a></li>
+                            <li><a class="dropdown-item" href="gezilecekyerler.html">Gezilecek Yerler</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="mirasımız.html">Mirasımız</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="ilgi.html">İlgi Alanlarım</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="iletisim.html">İletişim</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="contact" class="generic dark-bg">
+        <div class="container" >
+            <h3 class="my-5">İletişime Geçin</h3>
+            <div class="row" >
+                <div class="col-md-12 col-lg-6">
+    
+                     <form id="contactForm" class="d-flex justify-content-center align-items-center flex-column "  >
+                        <div class="contact p-5 border ">
+                          <h1 class="mb-5 text-light border-bottom pb-3">İletişim Formu</h1>
+                          <div class="mb-3 ">
+                            <i class="fa-solid fa-user px-1" style="color: #ffffff;"></i>
+                            <label  class="text-light  " for="name"></label>
+                            <input type="text" id="name" name="name" placeholder="Adınız" />
+                            <span id="nameError" class="error"></span>
+                          </div>
+                          <div class="mb-3 ">
+                            <i class="fa-sharp fa-solid fa-paper-plane pe-1" style="color: #ffffff;"></i>
+                            <i class="fa-regular fa-mailbox" style="color: #ffffff;"></i>
+                            <label class="text-light " for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="E-posta"/>
+                            <span id="emailError" class="error "></span>
+                          </div>
+                          <div class="mb-3 ">
+                            <i class="fa-solid fa-envelope px-1" style="color: #ffffff;"></i>
+                            <label class="text-light" for="message"></label>
+                            <textarea id="message" name="message" placeholder="Mesajınız.."></textarea>
+                            <span id="messageError" class="error"></span>
+                          </div>
+                          <button class="text-light bg-primary m-1 p-1" type="submit">Gönder</button>
+                          
+                          <button class="text-light bg-primary m-1 p-1 " type="reset">Temizle</button> 
+                        </div>
+                 </form>
+                
+    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="iletisim.js"></script>
+  </body>
+</html>

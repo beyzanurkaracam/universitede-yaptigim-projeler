@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Beyzanur Karaçam</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg ust-navbar ">
+        <div class="container-fluid navbarr">
+            <div class="logo">
+                <img src="resimler/b-harfi_1194522.png" alt="logo">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" aria-current="page" href="hakkimda.html">Hakkımda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="ozgecmis.html">Özgeçmiş</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="sehrim.html" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Şehrim
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sehrim.html">Şehrim</a></li>
+                            <li><a class="dropdown-item" href="gezilecekyerler.html">Gezilecek Yerler</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="mirasımız.html">Mirasımız</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="ilgi.html">İlgi Alanlarım</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="iletisim.html">İletişim</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="login-container">
+        <div class="login-wrapper d-flex justify-content-center">
+            <div class="logo">
+                <img src="resimler/b-harfi_1194522.png" alt="logo">
+            </div>
+            <form action="open.php" method="post">
+                <div class="input-box">
+                  <input type="email" placeholder="email giriniz..." name="email">
+                  <div class="underline"></div>
+               </div>
+                <div class="input-box">
+                   <input type="password" pattern="([a-z]{1})([0-9]{9})" title="şifreniz bir küçük harf ve 9 tane rakam içermelidir." name="password" placeholder="şifrenizi girin..." >
+                   <div class="underline"></div>
+               </div>
+               <div class="input-box button">
+                 <input type="submit" value="Giriş Yap">
+                  
+               </div>
+           </form>
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,324 @@
+body{
+    background-color:rgb(253, 247, 237)!important;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+}
+
+/*navbar kısmı*/
+.ust-navbar {
+    background-color: rgb(47, 72, 59);
+    width: 100%;
+    height: 70px;
+    margin-top: 0;
+    position: relative;
+
+}
+.navbarr .logo img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 7%;
+    top: 5px;
+    border-radius: 50%;
+   border: 5px solid rgb(253, 247, 237);
+
+}
+
+.dropdown li a{
+    color: black;
+}
+.navbarr .logo img:hover{
+    transition: transform 1s;
+    transform: scale(.5);
+    border: 5px solid rgb(152, 172, 161);
+}
+
+
+.ust-navbar a {
+    color: rgb(253, 247, 237) ;
+}
+
+.ust-navbar a:hover {
+    color:  rgb(152, 172, 161);
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+@media screen and (max-width:992px) {
+   .navbar-nav{
+    background-color: rgb(253, 247, 237);
+    position: relative;
+    top: 23px;
+    z-index: 1;
+   }
+    .nav-item:hover{
+        background-color: rgb(47, 72, 59);
+    }
+    .navbar-nav a{
+        color: black;
+    }
+   .container img {
+    width: 200px;
+    height: 200px;
+    }
+    
+}
+@media screen and (min-width:992px) {
+    
+    .container .fotom img {
+     width: 300px;
+     height: 300px;
+     border-radius: 25%;
+     }
+     
+ }
+
+/*hobilerim kısmı*/
+.hakkimda-icerik {
+    position: relative;
+    top: -10;
+}
+.ben{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    box-shadow:5px 10px #909091;
+}
+.card:hover{
+    transition: transform 1s;
+    transform: scale(1.2);
+}
+
+.ayrac{
+    border: none;
+    border-top: 3px solid rgb(51, 36, 7);
+    max-width: 250px;
+    margin: 25px auto;
+}
+.igri{
+    color: rgb(80, 56, 23);
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid  rgb(253, 247, 237);
+    background-color: rgb(253, 247, 237);
+}
+.hakkimda-bilgi{
+    background-color:  rgb(253, 247, 237);
+}
+ h3 {
+    margin-left: 70px;
+    margin-top: 50px;
+    color: rgb(84, 60, 17);
+}
+
+.hakkimda-icerik h5 {
+    margin-left: 30px;
+
+}
+
+
+.filmler {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+hr {
+    color:rgb(47, 72, 59);
+    size: 3px;
+}
+.kitap-foto{
+    border: none;
+    border-radius: 10%;
+    width: 100px;
+}
+.kitap-foto img{
+width: 100%;
+border-radius: 10%;
+}
+.kitap-foto img:hover{
+    opacity: .5;
+    }
+.row p {
+    display: inline-block;
+
+}
+
+.row img {
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-top: 0;
+}
+.d-block{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider-wrapper{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.footer {
+    background-color:  rgb(47, 72, 59);
+    height: 200px;
+    color: rgb(253, 247, 237);
+  }
+  .footer p {
+    font-size: 18px;
+  }
+  .footer-sutun {
+    height: 200px;
+  }
+  /*özgeçmiş*/
+  header h4{
+    text-align: center;
+    margin-top: 50px;
+  }
+ aside .card{
+    margin-top: 20px;
+ }
+ /*login*/
+ .login-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+ }
+ .login-wrapper{
+   background-color: white;
+    max-width: 350px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 5px;
+    position: relative;
+    height: 400px;
+ }
+
+ .login-container form .input-box{
+    margin-top: 25px;
+    width: 100%;
+    height: 45px;
+    position: relative;
+}
+
+.login-container form .input-box input{
+height: 100%;
+width: 100%;
+font-size: 16px;
+
+}
+.login-container .logo img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 70%;
+    top: 15px;
+    border-radius: 50%;
+    border: 5px solid #65896f;
+}
+.login-wrapper form .input-box{
+   top: 70px;
+}
+/*iletisim*/
+.container .row .bg,
+.container .row .border{
+    background-color: #d8e6dc ;
+    color: black;
+}
+.container .row input{
+    text-decoration-color: black;
+    color: black;
+}
+.input-group select{
+    width: 250px;
+}
+.container .row .textcolor{
+    color: black;
+}
+.container .row .textclr {
+    color: black;
+}
+/*ilgi*/
+*{
+    box-sizing: border-box;
+}
+.body{
+    background-color: #65896f;
+   margin: 0;
+}
+header{
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.search{
+    background: transparent;
+    border:2px solid var(#65896f);
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    color: #fff;
+}
+.search::placeholder{
+    color: #5c635a;
+}
+.search:focus{
+    outline:none;
+    background: #5c635a;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.movie{
+    width: 300px;
+    margin: 1rem;
+    background:#65896f ;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .2);
+}
+.movie img{
+    width: 100%;
+}
+.movie-info{
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem 1rem;
+    letter-spacing: .5px;
+}
+.movie-info h3{
+    margin-top: 0;
+}
+.movie-info span{
+    background: #65896f;
+    padding: .25rem .5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.movie-info span.green{
+    color: lightgreen;
+}
+.movie-info span.orange{
+    color: orange;
+}
+.movie-info span.red{
+    color: red;
+}
+
+.movie:hover .overview{
+    transform: translateY(0);
+}
